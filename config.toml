@@ -1,0 +1,73 @@
+baseurl = "https://example.com"
+languageCode = "en"
+title = "Hugo Kiss theme"
+theme = "kiss"
+copyright = '&copy; <a href="https://github.com/ribice">Emir Ribic</a> 2017'
+disqusShortname = "shortname"
+googleAnalytics = ""
+Paginate = 5
+enableRobotsTXT = true
+themesDir = "themes"
+baseURL = ""
+
+[params.rss]
+includeContent = true
+authorName = "Emir Ribic"
+authorEmail = "ribice@gmail.com"
+
+[params.assets]
+customCSS = [ "css/custom.css" ]
+
+[params.info]
+adsense = ""
+enableSocial = true
+homeTitle = ""
+poweredby = true
+related = true
+codeCopy = true
+taxonomiesCount = true
+
+[params.features]
+disqusOnDemand = true
+
+[params.opengraph.facebook]
+admins = [ ]
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = ""
+
+[params.social]
+twitter = "ribicemir"
+github = "ribice"
+email = "ribice@gmail.com"
+linkedin = "ribice"
+facebook = "ribice"
+instagram = ""
+codepen = ""
+rss = "index.xml"
+
+  [params.social.config]
+  platforms = [
+  "github",
+  "facebook",
+  "twitter",
+  "instagram",
+  "email",
+  "codepen",
+  "linkedin"
+]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = "//matomo.example.com/"
+
+[params.fathomAnalytics]
+rootURL = "//fathom.example.com/"
+
+[taxonomies]
+tag = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
